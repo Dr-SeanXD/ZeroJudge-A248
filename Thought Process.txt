@@ -1,0 +1,2 @@
+In this problem, if using cin, optimization is needed to avoid timeouts. Since printf cannot be used to specify the number of decimal places, after outputting the integer part of the answer, run a loop N times to calculate the value after the decimal point for a/b.
+Take the remainder of a/b, then multiply a by 10 while outputting a/b.
